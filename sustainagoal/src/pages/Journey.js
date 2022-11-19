@@ -1,9 +1,10 @@
 import React from 'react';
+import Carousel from '../Components/Carousel';
 
 const Journey = () => {
   return (
     <div>
-        Hello, I am your cat!
+        <Carousel />
     </div>
     
   );
