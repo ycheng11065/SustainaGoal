@@ -4,7 +4,7 @@ public class sleepGoal extends Goal{
 
     private int currentAmount;
     private final int goalAmount;
-    private final String goalType = "Litres";
+    private final String goalType = "Hours";
 
     public sleepGoal(int goalAmount) {
         super();
