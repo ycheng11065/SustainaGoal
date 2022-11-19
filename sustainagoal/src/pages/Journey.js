@@ -2,7 +2,10 @@ import React from 'react';
 
 const Journey = () => {
   return (
-    <div>Hello, I am your cat!</div>
+    <div>
+        Hello, I am your cat!
+    </div>
+    
   );
 }
 
