@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
   return (
-    <div>Hello, I am your cat!</div>
+    <div>Profile landing page</div>
   );
 }
 

@@ -1,0 +1,26 @@
+
+img {
+    max-width: 70%;
+    height: auto;
+    align-self:center;
+}
+
+.home {
+    background-color:#CFD8D7;
+}
+
+.homeDesc {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.partTwo {
+    background-color: #B5C9C3;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    margin: auto;
+    padding:25px;
+}
