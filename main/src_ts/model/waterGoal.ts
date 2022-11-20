@@ -1,8 +1,9 @@
+import Goal from "./Goal";
 
 export default class waterGoal extends Goal {
-    private let currentAmount: number = 0;
-    private let goalAmount: number = 0;
-    private let goalType: string = "Liters";
+    // private  currentAmount: number = 0;
+    private readonly goalAmount: number = 0;
+    private  goalType: string = "Liters";
 
     constructor(goalAmount: number) {
         super();
@@ -10,19 +11,19 @@ export default class waterGoal extends Goal {
     }
 
     getGoalType(): string {
-        return goalType;
+        return this.goalType;
     }
 
-    getCurrentAmount(): number {
-        return currentAmount;
-    }
+    // getCurrentAmount(): number {
+    //     return this.currentAmount;
+    // }
 
     getGoalAmount(): number {
-        return goalAmount;
+        return this.goalAmount;
     }
 
-    setCurrentAmount(currentAmount: number) {
-        this.currentAmount = currentAmount;
-    }
+    // setCurrentAmount(currentAmount: number) {
+    //     this.currentAmount = currentAmount;
+    // }
 
 }
