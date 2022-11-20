@@ -17,7 +17,12 @@ const Carousel = () => {
 
   function addProgress() {
     User.addProgress("water", 2);
-    console.log(User.waterGoal.goalProgress);
+    console.log(User.waterGoal.progress);
+    // let x =  User.checkGoals();
+    // // console.log(x);
+    // User.waterGoal.day = 19;
+    // console.log(User.waterGoal.day);
+    // console.log(User.waterGoal.done);
   }
 
   return (
