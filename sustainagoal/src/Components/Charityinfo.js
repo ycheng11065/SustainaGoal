@@ -26,8 +26,11 @@ const Charityinfo = () => {
                 <div className="descriptionContainer">
                 <h3 className="charityTitle">UNICEF USA</h3>
                 <p className="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                UNICEF helps hundreds of millions of out-of-school children continue their education — through community-based schools, both in-person and remote learning support and other programs — reaching more children than ever.
+                <br></br>
+                <a href="https://www.unicefusa.org/">Click here to learn more</a>
                 </p>
+                
                 </div>
             </div>
           </div>

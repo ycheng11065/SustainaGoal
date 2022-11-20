@@ -14,7 +14,7 @@ export const Home = () => {
           <img
             className="rounded mx-auto d-block"
             src="https://c4.wallpaperflare.com/wallpaper/603/977/81/forest-pretty-picture-background-wallpaper-preview.jpg"
-            alt="not loaded"
+            alt=""
           />
         </div>
         <div className="col align-self-center">
@@ -44,6 +44,7 @@ export const Home = () => {
           <img
             className="rounded mx-auto d-block"
             src="https://brocku.ca/brock-news/wp-content/uploads/2022/09/GettyImages-1181366400-1600x1067.jpg?x70330"
+            alt=""
           />
         </div>
       </div>
