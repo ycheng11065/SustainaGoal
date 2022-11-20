@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Charityinfo from "../Components/Charityinfo";
-import Flickity from "react-flickity-component";
 import { Container } from "react-bootstrap";
 
 export const Home = () => {
