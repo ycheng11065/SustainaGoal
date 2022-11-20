@@ -2,12 +2,14 @@ import React from "react";
 import "./Home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Charityinfo from "../Components/Charityinfo";
-import Flickity from "react-flickity-component";
 import { Container } from "react-bootstrap";
+import user from "../model/User";
 
 export const Home = () => {
   return (
     <Container className="home">
+      {user.addWaterGoal(5)}
+    {console.log(user._waterGoal)}
       <div className="py-3" />
       <div className="row">
         <div className="col">
