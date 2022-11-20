@@ -1,10 +1,11 @@
 import React from 'react';
-import Carousel from '../Components/Carousel';
+import Carousell from '../Components/Carousel';
 
 const Journey = () => {
   return (
     <div>
-        <Carousel />
+        <Carousell />
+          
     </div>
     
   );
