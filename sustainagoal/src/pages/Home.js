@@ -32,14 +32,12 @@ export const Home = () => {
       <div className="row partTwo">
         <div className="col align-self-center">
           <p className="homeDesc">
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Did you know that 77% of people only keep their new habits for a week and only
+            19% of people keep their habits for over two years? Self-motivation and consistency 
+            are extremely difficult. That's why Sustainagoal is here to help! Through our platform 
+            you can develop habits month by month that will last a lifetime. Remember, your subscription 
+            is renewed every month you complete your goals. Even if you don't, your fee is sent straight
+            to charity to help support others in need for a win-win scenario!
           </p>
         </div>
         <div className="col">
@@ -53,6 +51,7 @@ export const Home = () => {
       <div className="row">
         <Charityinfo />
       </div>
+      <div className="py-3" />
     </Container>
   );
 };
