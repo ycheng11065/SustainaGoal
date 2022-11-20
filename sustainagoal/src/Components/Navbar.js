@@ -13,6 +13,7 @@ function Navigation() {
           <Nav className="me-auto">
           </Nav>
           <Nav>
+            <Nav.Link className="headerLink" href="/goals">GOALS</Nav.Link>
             <Nav.Link className="headerLink" href="/journey">YOUR JOURNEY</Nav.Link>
             <Nav.Link className="headerLink" href="/profile">PROFILE</Nav.Link>
           </Nav>

@@ -32,7 +32,6 @@ export default class SustainaGoal {
         return this._waterGoal;
 
     }
-
     public addMeditateGoal(goalNumber: number): Goal {
         this._meditateGoal = new meditateGoal(goalNumber);
         return this._meditateGoal;
