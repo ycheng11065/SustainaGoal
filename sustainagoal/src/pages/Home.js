@@ -3,7 +3,7 @@ import "./Home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Charityinfo from "../Components/Charityinfo";
 import { Container } from "react-bootstrap";
-import user from "../model/User";
+
 
 export const Home = () => {
   return (

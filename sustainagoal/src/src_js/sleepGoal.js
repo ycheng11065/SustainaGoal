@@ -1,15 +1,12 @@
 import Goal from "./Goal";
-
-export default class sleepGoal extends Goal{
-    // private  currentAmount: number = 0;
-    private readonly goalAmount: number = 0;
-    private  goalType: string = "Hours";
-
-    constructor(goalAmount: number) {
+export default class sleepGoal extends Goal {
+    constructor(goalAmount) {
         super();
+        // private  currentAmount: number = 0;
+        this.goalAmount = 0;
+        this.goalType = "Hours";
         this.goalAmount = goalAmount;
     }
-
     // setCurrentAmount(currentAmount: number) {
     //     this.currentAmount = currentAmount;
     // }
@@ -17,12 +14,10 @@ export default class sleepGoal extends Goal{
     // getCurrentAmount(): number {
     //     return this.currentAmount;
     // }
-
-    getGoalAmount(): number {
+    getGoalAmount() {
         return this.goalAmount;
     }
-
-    getGoalType(): string {
+    getGoalType() {
         return this.goalType;
     }
 }

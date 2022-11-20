@@ -1,14 +1,32 @@
 import React from "react";
+import { useState } from "react";
 import {
   CCarousel,
-  CCarouselCaption,
   CCarouselItem,
   CImage,
 } from "@coreui/react";
-import { IoWaterOutline } from "react-icons/io5";
 import { Container } from "react-bootstrap";
+import "./Carousel.scss";
+import User from "../src_js/User";
 
 const Carousel = () => {
+  const [clicked, setClicked] = useState(false);
+  function onClick() {
+    // console.log(User.waterGoal.goalAmount);
+    // User.addProgress("water", 2);
+    // console.log(User.waterGoal.goalProgress);
+    setClicked(!clicked);
+  }
+
+  function addWaterGoal() {
+    User.addWaterGoal(5);
+  }
+
+  function addProgress() {
+    User.addProgress("water", 2);
+    console.log(User.waterGoal.goalProgress);
+  }
+
   return (
     <Container>
       <CCarousel controls indicators dark>
@@ -86,8 +104,10 @@ const Carousel = () => {
             </div>
           </div>
         </CCarouselItem>
-        
       </CCarousel>
+      {/* {clicked ? <a href="#" class="btn submitBtn active" onClick={onClick}role="button" aria-pressed="true">Add Goal</a> :       <a href="#" class="btn submitBtn disabled" onClick={onClick}role="button" aria-pressed="true">Goal Added  </a>} */}
+      <a href="#" class="btn submitBtn" onClick={addWaterGoal}role="button" aria-pressed="true">Add Goal</a>
+      <a href="#" class="btn submitBtn" onClick={addProgress}role="button" aria-pressed="true">Add Progress</a>
     </Container>
   );
 };

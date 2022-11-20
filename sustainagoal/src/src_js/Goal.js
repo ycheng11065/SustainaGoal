@@ -1,43 +1,31 @@
-
 export default class Goal {
-    private _date: Date = new Date();
-    private readonly _makeDate: Date;
-    private readonly _deadline: Date;
-    private _done: number = 0; // 0 for not done, 1 for done
-    private _progress: number = 0;
-
     constructor() {
+        this._date = new Date();
+        this._done = 0; // 0 for not done, 1 for done
+        this._progress = 0;
         this._makeDate = this._date;
         this._deadline = this._date;
         this._deadline.setMonth(this._deadline.getMonth() + 1);
     }
-
-
-    get progress(): number {
+    get progress() {
         return this._progress;
     }
-
-    set progress(value: number) {
+    set progress(value) {
         this._progress = value;
     }
-
-    set done(value: number) {
+    set done(value) {
         this._done = value;
     }
-
-    get done(): number {
+    get done() {
         return this._done;
     }
-
-    get date(): Date {
+    get date() {
         return this._date;
     }
-
-    get makeDate(): Date {
+    get makeDate() {
         return this._makeDate;
     }
-
-    get deadline(): Date {
+    get deadline() {
         return this._deadline;
     }
 }
