@@ -27,7 +27,6 @@ const Carousel = () => {
 
   return (
     <Container>
-      <Payment />
       <CCarousel
         transition="crossfade"
         interval={false}
