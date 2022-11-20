@@ -48,6 +48,8 @@ export default class SustainaGoal {
                 this._goals[i].progress = 0;
                 this._goals[i].day = currDate.getDay();
                 return true;
+            } else if (currDate.getDay() <= this._goals[i].day) {
+                continue;
             }
             else {
                 // failed
