@@ -4,8 +4,7 @@ import Carousell from '../Components/Carousel';
 const Journey = () => {
   return (
     <div>
-        <Carousell />
-          
+        Journey progress
     </div>
     
   );

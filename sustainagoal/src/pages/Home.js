@@ -8,8 +8,6 @@ import user from "../model/User";
 export const Home = () => {
   return (
     <Container className="home">
-      {user.addWaterGoal(5)}
-    {console.log(user._waterGoal)}
       <div className="py-3" />
       <div className="row">
         <div className="col">
