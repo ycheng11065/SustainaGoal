@@ -10,33 +10,24 @@ const id = 3
 //   data: Charity[];
 // };
 
-export default class charitySearch {
-    constructor(){
+export default class charitySearch() {
+
+    constructor() {
     }
 
-     async getCharities(user_input) {
+    async function getCharities(user_input) {
       try {
         // 👇️ const response: Response
-//        const url = "https://api.data.charitynavigator.org/v2/Organizations?app_id=9d76dfff&app_key=" + process.env.API_KEY + "&pageSize=5&search=education&searchType=DEFAULT&rated=true&fundraisingOrgs=true"
-
-//        var url = "https://api.data.charitynavigator.org/v2"
-
-        var url = new URL("https://api.data.charitynavigator.org/v2/Organizations?")
-
-        var params = [["app_id", "9d76dfff"],
-                      ["app_key", process.env.API_KEY],
-                      ["pageSize", 5],
-                      ["search", user_input],
-                      ["searchType", "DEFAULT"],
-                      ["fundraisingOrgs", true]]
-
-        url.search = new URLSearchParams(params).toString();
-
-        fetch(url)
+        const url = "https://api.data.charitynavigator.org/v2"
         const response = await fetch(url, {
           method: 'GET',
           headers: {
-            "Accept": "application/json"
+            "app_id": "9d76dfff",
+            "app_key": process.env.API_KEY,
+            "pageSize": 5,
+            "search": user_input,
+            "searchType": "DEFAULT",
+            "fundraisingOrgs": true,
           },
         })
 

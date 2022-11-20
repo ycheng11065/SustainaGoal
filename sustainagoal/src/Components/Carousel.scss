@@ -1,33 +1,48 @@
 .icon {
-    display:flex;
-    justify-content:center !important;
-    padding-left:800px;
+  display: flex;
+  justify-content: center !important;
+  padding-left: 800px;
 }
 
 .charityLogo {
-    max-width: 60%;
-    height: auto;
-    align-self: center;
-  }
-  
-  .charityTitle {
-    justify-content: center !important;
-    text-align: center !important;
-    max-width: 80%;
-  
-  }
-  
-  .descriptionContainer {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .description {
-      max-width: 80%;
-  }
-  
+  max-width: 60%;
+  height: auto;
+  align-self: center;
+}
+
+.submitBtn {
+  background-color: #9f9aa4;
+  position: relative !important;
+  // padding-right: 30px;
+  padding-left: 0px;
+  margin:0;
+  // transform: translateX(-90%);
+  // padding: 10px;
+  display: inline-block;
+}
+
+.inputBox {
+  position:inline-block !important;
+  max-width: 50%;
+  float: left;
+}
+
+.charityTitle {
+  justify-content: center !important;
+  text-align: center !important;
+  max-width: 80%;
+}
+
+.descriptionContainer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  justify-content: center;
+  text-align: center;
+}
+
+.description {
+  max-width: 80%;
+}

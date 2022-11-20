@@ -4,8 +4,19 @@ export default class Goal {
         this._done = 0; // 0 for not done, 1 for done
         this._progress = 0;
         this._makeDate = this._date;
-        this._deadline = this._date.setMonth(this._date.getMonth() + 1);
+        this._deadline = this._date;
+        this._deadline.setMonth(this._deadline.getMonth() + 1);
+        this._day = this._makeDate.getDate();
     }
+
+    get day() {
+        return this._day;
+    }
+
+    set day(value) {
+        this._day = value;
+    }
+
     get progress() {
         return this._progress;
     }
@@ -26,5 +37,9 @@ export default class Goal {
     }
     get deadline() {
         return this._deadline;
+    }
+
+    set deadline(value) {
+        this._deadline = value;
     }
 }
