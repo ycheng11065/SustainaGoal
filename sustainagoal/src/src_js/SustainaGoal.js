@@ -58,16 +58,16 @@ export default class SustainaGoal {
     addProgress(type, amount) {
         switch (type) {
             case "cardio":
-                this._cardioGoal.progress += amount;
+                this._cardioGoal._progress += amount;
                 return true;
             case "sleep":
-                this._sleepGoal.progress += amount;
+                this._sleepGoal._progress += amount;
                 return true;
             case "meditate":
-                this._meditateGoal.progress += amount;
+                this._meditateGoal._progress += amount;
                 return true;
             case "water":
-                this._waterGoal.goalProgress += amount;
+                this._waterGoal._progress += amount;
                 return true;
             default:
                 return false;

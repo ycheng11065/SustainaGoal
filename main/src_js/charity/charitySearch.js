@@ -10,12 +10,11 @@ const id = 3
 //   data: Charity[];
 // };
 
-export default class charitySearch() {
-
-    constructor() {
+export default class charitySearch {
+    constructor(){
     }
 
-    async function getCharities(user_input) {
+     async getCharities(user_input) {
       try {
         // 👇️ const response: Response
 //        const url = "https://api.data.charitynavigator.org/v2/Organizations?app_id=9d76dfff&app_key=" + process.env.API_KEY + "&pageSize=5&search=education&searchType=DEFAULT&rated=true&fundraisingOrgs=true"

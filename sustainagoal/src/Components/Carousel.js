@@ -24,7 +24,7 @@ const Carousel = () => {
 
   function addProgress() {
     User.addProgress("water", 2);
-    console.log(User.waterGoal.goalProgress);
+    console.log(User.waterGoal.progress);
   }
 
   return (

@@ -4,8 +4,7 @@ export default class Goal {
         this._done = 0; // 0 for not done, 1 for done
         this._progress = 0;
         this._makeDate = this._date;
-        this._deadline = this._date;
-        this._deadline.setMonth(this._deadline.getMonth() + 1);
+        this._deadline = this._date.setMonth(this._date.getMonth() + 1);
     }
     get progress() {
         return this._progress;

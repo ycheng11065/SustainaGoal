@@ -1,4 +1,4 @@
-import cardioGoal from "./cardioGoal";
+import cardioGoal from "./cardioGoals";
 import sleepGoal from "./sleepGoal";
 import waterGoal from "./waterGoal";
 import meditateGoal from "./meditateGoal";

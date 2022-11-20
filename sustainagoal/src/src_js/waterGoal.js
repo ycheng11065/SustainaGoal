@@ -6,16 +6,16 @@ export default class waterGoal extends Goal {
         this.goalAmount = 0;
         this.goalType = "Liters";
         this.goalAmount = goalAmount;
-        this.goalProgress = 0;
+        // this.goalProgress = 0;
     }
 
-    setGoalProgress(progress) {
-        this.goalProgress = progress;
-    }
-
-    getProgress() {
-        return this.goalProgress;
-    }
+    // setGoalProgress(progress) {
+    //     this.goalProgress = progress;
+    // }
+    //
+    // getProgress() {
+    //     return this.goalProgress;
+    // }
 
     getGoalType() {
         return this.goalType;
