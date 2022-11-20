@@ -40,11 +40,14 @@ export default class SustainaGoal {
             else if (this._goals[i].deadline >= currDate && this._goals[i].done) {
                 // success
                 this._goals[i] = undefined;
+                return true;
             }
-            else if (this._goals[i].deadline < currDate && this._goals[i].done) {
+            else if (currDate.getDay() > this._goals[i].day && this._goals[i].done) {
+                // reset for next day
                 this._goals[i].done = 0;
                 this._goals[i].progress = 0;
-                // reset for next day
+                this._goals[i].day = currDate.getDay();
+                return true;
             }
             else {
                 // failed
@@ -55,19 +58,32 @@ export default class SustainaGoal {
         }
         return true;
     }
+
     addProgress(type, amount) {
         switch (type) {
             case "cardio":
                 this._cardioGoal._progress += amount;
+                if (this._cardioGoal._progress >= this._cardioGoal.goalAmount) {
+                    this._cardioGoal._done = 1;
+                }
                 return true;
             case "sleep":
                 this._sleepGoal._progress += amount;
+                if (this._sleepGoal._progress >= this._sleepGoal.goalAmount) {
+                    this._sleepGoal._done = 1;
+                }
                 return true;
             case "meditate":
                 this._meditateGoal._progress += amount;
+                if (this._meditateGoal._progress >= this._meditateGoal.goalAmount) {
+                    this._meditateGoal._done = 1;
+                }
                 return true;
             case "water":
                 this._waterGoal._progress += amount;
+                if (this._waterGoal._progress >= this._waterGoal.goalAmount) {
+                    this._waterGoal._done = 1;
+                }
                 return true;
             default:
                 return false;
