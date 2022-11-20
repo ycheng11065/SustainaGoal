@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d544c313-55fc-4d86-a2b6-eab74a47bb7d" name="Changes" comment="Changed Cardio goal name and added workout goals">
+      <change afterPath="$PROJECT_DIR$/main/src_js/Goal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_js/SustainaGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_js/cardioGoals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_js/charity/charitySearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_js/meditateGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_js/sleepGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_js/waterGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_ts/model/Goal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_ts/model/SustainaGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_ts/model/cardioGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_ts/model/meditateGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_ts/model/sleepGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src_ts/model/waterGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/Components/Carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/Components/Charityinfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/Components/Charityinfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/Components/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/Goal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/Goal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/SustainaGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/SustainaGoal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/cardioGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/cardioGoal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/meditateGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/meditateGoal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/sleepGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/sleepGoal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/waterGoal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/model/waterGoal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/pages/Goal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sustainagoal/src/pages/Journey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/model/Goal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/model/cardioGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/model/meditateGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/model/sleepGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/model/waterGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/model/workoutGoal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src_ts/model/SustainaGoal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main/src_ts/model/SustainaGoal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src_ts/model/cardioGoal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main/src_ts/model/cardioGoal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src_ts/model/meditateGoal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main/src_ts/model/meditateGoal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src_ts/model/sleepGoal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main/src_ts/model/sleepGoal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src_ts/model/waterGoal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main/src_ts/model/waterGoal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/src/Components/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/src/Components/Carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/src/Components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/src/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/src/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/src/pages/Journey.js" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/src/pages/Journey.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sustainagoal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sustainagoal/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cardio_goal" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2HmKkTfUoOhHFoOvfyNjCm7kfOj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\VSCode Workspace\SustainaGoal" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d544c313-55fc-4d86-a2b6-eab74a47bb7d" name="Changes" comment="" />
+      <created>1668884962884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668884962884</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Changed Cardio goal name and added workout goals">
+      <created>1668889407252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668889407252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed Cardio goal name and added workout goals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Cardio goal name and added workout goals" />
+  </component>
+</project>

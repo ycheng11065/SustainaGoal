@@ -1,5 +1,28 @@
 {
   "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "stripe": "^11.1.0",
     "typescript": "^4.9.3"
+  },
+  "name": "sustainagoal",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycheng11065/Your-Journey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycheng11065/Your-Journey/issues"
+  },
+  "homepage": "https://github.com/ycheng11065/Your-Journey#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
   }
 }
