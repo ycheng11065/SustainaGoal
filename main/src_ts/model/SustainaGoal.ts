@@ -6,35 +6,35 @@ import meditateGoal from "./meditateGoal";
 
 export default class SustainaGoal {
     private _goals: Goal[] = [];
-    private waterGoal: waterGoal = undefined;
-    private sleepGoal: sleepGoal = undefined;
-    private meditateGoal: meditateGoal = undefined;
-    private cardioGoal: cardioGoal = undefined;
+    private _waterGoal: waterGoal = undefined;
+    private _sleepGoal: sleepGoal = undefined;
+    private _meditateGoal: meditateGoal = undefined;
+    private _cardioGoal: cardioGoal = undefined;
     private money: number = 0;
 
     constructor() {
-        this._goals.push(this.waterGoal);
-        this._goals.push(this.sleepGoal);
-        this._goals.push(this.meditateGoal);
-        this._goals.push(this.cardioGoal);
+        this._goals.push(this._waterGoal);
+        this._goals.push(this._sleepGoal);
+        this._goals.push(this._meditateGoal);
+        this._goals.push(this._cardioGoal);
     }
 
     public addCardioGoal(goalNumber: number, intensity: number, activity: string ): Goal {
-        this.cardioGoal = new cardioGoal(goalNumber, intensity,activity);
-        return this.cardioGoal;
+        this._cardioGoal = new cardioGoal(goalNumber, intensity,activity);
+        return this._cardioGoal;
     }
     public addSleepGoal(goalNumber: number): Goal {
-        this.sleepGoal = new sleepGoal(goalNumber);
-        return this.sleepGoal;
+        this._sleepGoal = new sleepGoal(goalNumber);
+        return this._sleepGoal;
     }
     public addWaterGoal(goalNumber: number): Goal {
-        this.waterGoal = new waterGoal(goalNumber);
-        return this.waterGoal;
+        this._waterGoal = new waterGoal(goalNumber);
+        return this._waterGoal;
 
     }
     public addMeditateGoal(goalNumber: number): Goal {
-        this.meditateGoal = new meditateGoal(goalNumber);
-        return this.meditateGoal;
+        this._meditateGoal = new meditateGoal(goalNumber);
+        return this._meditateGoal;
     }
 
 
@@ -45,7 +45,7 @@ export default class SustainaGoal {
                 continue;
             } else if (this._goals[i].deadline >= currDate && this._goals[i].done) {
                 // success
-                delete this._goals[i];
+                this._goals[i] = undefined;
             } else if (this._goals[i].deadline < currDate && this._goals[i].done) {
                 this._goals[i].done = 0;
                 this._goals[i].progress = 0;
@@ -63,25 +63,36 @@ export default class SustainaGoal {
     public addProgress(type: string, amount: number): boolean {
         switch(type) {
             case "cardio":
-                this.cardioGoal.progress += amount;
+                this._cardioGoal.progress += amount;
                 return true;
             case "sleep":
-                this.sleepGoal.progress += amount;
+                this._sleepGoal.progress += amount;
                 return true;
             case "meditate":
-                this.meditateGoal.progress += amount;
+                this._meditateGoal.progress += amount;
                 return true;
             case "water":
-                this.waterGoal.progress += amount;
+                this._waterGoal.progress += amount;
                 return true;
             default:
                 return false;
         }
-
-        return true;
     }
 
-    get goals(): Goal[] {
-        return this._goals;
+
+    get waterGoal(): waterGoal {
+        return this._waterGoal;
+    }
+
+    get sleepGoal(): sleepGoal {
+        return this._sleepGoal;
+    }
+
+    get meditateGoal(): meditateGoal {
+        return this._meditateGoal;
+    }
+
+    get cardioGoal(): cardioGoal {
+        return this._cardioGoal;
     }
 }
