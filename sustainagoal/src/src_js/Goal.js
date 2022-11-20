@@ -6,7 +6,7 @@ export default class Goal {
         this._makeDate = this._date;
         this._deadline = this._date;
         this._deadline.setMonth(this._deadline.getMonth() + 1);
-        this._day = this._date.getDay();
+        this._day = this._makeDate.getDate();
     }
 
     get day() {
